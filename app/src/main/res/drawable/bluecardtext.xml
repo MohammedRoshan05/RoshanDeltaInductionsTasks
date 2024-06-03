@@ -1,0 +1,19 @@
+<!-- res/drawable/dashed_underline.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item android:bottom="-29dp">
+        <shape
+            android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="#2fb6f0"
+                android:dashWidth="10dp"
+                android:dashGap="10dp"/>
+        </shape>
+    </item>
+</layer-list>
